@@ -1,0 +1,53 @@
+body {
+  background-image: url('cloude.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #663c70;
+}
+
+  
+  h1{
+	text-align: center;
+	font-weight: 400;
+    font-family: Arial, sans-serif;
+    color:rgb(255, 255, 255);
+  }
+  header {
+    background-color:#a257b4;
+    padding: 13px;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .sidebar a.active {
+    background-color:#cc90db;
+    color: white;
+  }  
+  .sidebar a:hover:not(.active) {
+    background-color: #cc90db;
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    background-color: #a257b4;
+    color: white;
+  }

@@ -1,0 +1,11 @@
+kisi - kisi objek
+1.Operator bitwise
+2.Masukan data mahasiswa
+3.Mencari elemen huruf
+4.Stok barang
+5.Nilai rata - rata
+
+minggu depan ujian praktek di hari senin atau gak hari rabu
+1.gaji karyawan /jam
+2.
+
