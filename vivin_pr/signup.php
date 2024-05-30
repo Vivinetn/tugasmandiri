@@ -10,7 +10,7 @@ require 'tambah.php';
   <title>Document</title>
 </head>
 <body>
-<link rel="stylesheet" href="signup.css"><br>
+<link rel="stylesheet" href="css/signup.css"><br>
 <h2>Website Mandiri - Sign Up</h2>
 
 <div class="container">

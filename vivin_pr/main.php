@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
 <header>
           <h1>Website Mandiri - Main Menu</h1>
         </header>

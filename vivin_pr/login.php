@@ -1,7 +1,7 @@
 <!DOCTYPE php>
 <php>
 <body>
-<link rel="stylesheet" href="signup.css"><br>
+<link rel="stylesheet" href="css/signup.css"><br>
 <h2>Website Mandiri - Log In</h2>
 
 <div class="container">
