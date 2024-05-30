@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($conn, $sqlquery);
 
     if ($result) {
-        header("Location: main.php?msg=New record created successfully");
+        header("Location: login.php?msg=New record created successfully");
      } else {
         echo "Failed: " . mysqli_error($conn);
      }
