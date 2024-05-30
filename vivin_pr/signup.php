@@ -1,12 +1,20 @@
+<?php
+require 'tambah.php';
+?>
 
-<!DOCTYPE php>
-<php>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 <body>
 <link rel="stylesheet" href="signup.css"><br>
 <h2>Website Mandiri - Sign Up</h2>
 
 <div class="container">
-<form action="">
+<form action="tambah.php" method="POST">
   <!-- Nama -->
   <label for="nama">Nama:</label><br>
   <input type="text" id="nama" name="nama" value=""><br><br>
@@ -37,23 +45,23 @@
 
   <!-- Hobi -->
   <label for="hobi">Hobi:</label><br>
-  <input type="checkbox" id="tidur" name="hobi" value="tidur">
+  <input type="checkbox" id="a" name="hobik[]" value="tidur">
   <label for="hobi"> Tidur</label><br>
 
-  <input type="checkbox" id="main" name="hobi" value="main">
+  <input type="checkbox" id="a" name="hobik[]" value="main">
   <label for="hobi"> Main</label><br>
 
-  <input type="checkbox" id="makan" name="hobi" value="makan">
+  <input type="checkbox" id="a" name="hobik[]" value="makan">
   <label for="hobi"> Makan</label><br>
 
-  <input type="checkbox" id="jalan" name="hobi" value="jalan">
+  <input type="checkbox" id="a" name="hobik[]" value="jalan">
   <label for="hobi"> Jalan</label><br>
 
-  <input type="checkbox" id="bersih" name="hobi" value="bersih">
+  <input type="checkbox" id="a" name="hobik[]" value="bersih">
   <label for="hobi"> Bersih bersih</label><br><br>
 
   <br><br>
-  <button input type="submit" value="Register"> Register<br>
+  <button input type="submit" name="submit" value="Submit"> Register<br>
 </form> 
 
 <a href="login.php">
@@ -62,4 +70,4 @@
 </div>
 
 </body>
-</php>
+</html>
