@@ -1,8 +1,8 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <php>
 <body>
 <link rel="stylesheet" href="css/signup.css"><br>
-<h2>Website Mandiri - Log In</h2>
+<h2>Website Mandir - Log In</h2>
 
 <div class="container">
 <form action="">
