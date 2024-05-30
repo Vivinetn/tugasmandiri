@@ -2,7 +2,7 @@
 include('connection.php');
 
 if (isset($_POST['submit'])) {
-    $nama = $_POST['nama'];
+    $username = $_POST['username'];
     $password = $_POST['password'];
     $email = $_POST['email'];
     $role = $_POST['role'];
@@ -16,7 +16,8 @@ if (isset($_POST['submit'])) {
 
     $hobi = implode(',', $_POST['hobik']);
 
-    $sqlquery = "INSERT INTO register(username, password, email, role, gender, hobi) VALUES('$nama', '$password', '$email', '$role', '$gender', '$hobi')";
+    $sqlquery = "INSERT INTO register(username, password, email, role, gender, hobi) 
+                 VALUES('$username', '$password', '$email', '$role', '$gender', '$hobi')";
     mysqli_query($conn, $sqlquery);
 
     $result = mysqli_query($conn, $sqlquery);

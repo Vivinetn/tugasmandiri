@@ -16,16 +16,16 @@ require 'tambah.php';
 <div class="container">
 <form action="tambah.php" method="POST">
   <!-- Nama -->
-  <label for="nama">Nama:</label><br>
-  <input type="text" id="nama" name="nama" value=""><br><br>
+  <label for="username">Nama:</label><br>
+  <input type="text" id="username" name="username" value="" required><br><br>
 
   <!-- Password -->
   <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password" value=""><br><br>
+  <input type="password" id="password" name="password" value="" required><br><br>
 
   <!-- Email -->
   <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" value=""><br><br>
+  <input type="email" id="email" name="email" value="" required><br><br>
 
   <!-- Role -->
   <label for="role">Role:</label>
