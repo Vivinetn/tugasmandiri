@@ -10,12 +10,15 @@
 <h2>Website Mandir - Log In</h2>
 
 <div class="container">
-<form action="">
+<form action="ceklogin.php" method="post">
   <br>
   <label for="username">Nama:</label><br>
   <input type="text" id="username" name="username" value=""><br>
   <label for="password">Password:</label><br>
   <input type="password" id="password" name="password" value=""><br>
+
+  <button type="submit" name="submit">Login</button>
+
 </form> 
 
 <br><br>

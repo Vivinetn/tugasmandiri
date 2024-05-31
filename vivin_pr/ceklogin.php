@@ -1,23 +1,16 @@
 <?php
+$koneksi = mysqli_connect("localhost", "root", "", "datavivin");
 
-$koneksi = mysqli_connect("localhost","root","","datavivin");
-
-//login
-
-if(isset($_POST['Login'])) {
+if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $cekuser = mysqli_query($koneksi,"select role from login where username= '$username' and password='$password'");
-    //role ==> pelanggan <> null
-
-    $role = mysqli_fetch_assoc($cekuser)["role"];
-
-    }else{
-        if($usernaem == 'usernaem'){
-            if($password == 'password'){
-                header("Location: main.php?msg=New record created successfully");
-            }
-        }
-    }
+   $query = " SELECT * FROM register WHERE username='$username' AND password='$password'";
+   $cekuser=mysqli_query($koneksi,$query);
+   if($cekuser && mysqli_num_rows($cekuser) > 0){
+    header("Location: main.php");
+   } else {
+    header ("Location: login.php");
+}
+}
 ?>
