@@ -22,8 +22,9 @@
 </form> 
 
 <br><br>
+Don't Have an Account?
 <a href="signup.php">
-  <button>Sign Up</button>
+  Sign Up
 </a> 
 <br><br>
 
