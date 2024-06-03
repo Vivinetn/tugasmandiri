@@ -7,6 +7,7 @@ if (isset($_POST['submit'])) {
                      // "register" sesuai sama nama table
    $query = " SELECT * FROM register WHERE username='$username' AND password='$password'";
    $cekuser=mysqli_query($koneksi,$query);
+   
    if($cekuser && mysqli_num_rows($cekuser) > 0){
     echo "<script>
           alert('Welcome');

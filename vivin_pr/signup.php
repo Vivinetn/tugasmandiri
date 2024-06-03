@@ -10,10 +10,10 @@ require 'tambah.php';
   <title>Document</title>
 </head>
 <body>
-<link rel="stylesheet" href="css/signup.css"><br>
-<h2>Website Mandiri - Sign Up</h2>
+<link rel="stylesheet" href="css/signup.css"><br><br>
 
 <div class="container">
+<h2>Sign Up</h2><br>
 <form action="tambah.php" method="POST">
   <!-- Nama -->
   <label for="username">Nama:</label><br>
@@ -61,12 +61,13 @@ require 'tambah.php';
   <label for="hobi"> Bersih bersih</label><br><br>
 
   <br><br>
-  <button input type="submit" name="submit" value="Submit"> Register<br>
-</form> 
+  <button input type="submit" name="submit" value="Submit"> Register<br> </button>
+</form> <br>
 
-<a href="login.php">
-  <button>Login</button>
-</a> 
+Already Have an Account?
+        <a href="login.php">
+          Login
+        </a> <br>
 </div>
 
 </body>

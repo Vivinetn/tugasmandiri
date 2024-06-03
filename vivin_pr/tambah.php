@@ -18,12 +18,15 @@ if (isset($_POST['submit'])) {
 
     $sqlquery = "INSERT INTO register(username, password, email, role, gender, hobi) 
                  VALUES('$username', '$password', '$email', '$role', '$gender', '$hobi')";
-    mysqli_query($conn, $sqlquery);
 
     $result = mysqli_query($conn, $sqlquery);
 
     if ($result) {
-        header("Location: login.php?msg=New record created successfully");
+        echo "<script>
+        alert('Account Created Succesfully');
+        window.location.href = 'login.php';
+        </script>";
+  exit();
      } else {
         echo "Failed: " . mysqli_error($conn);
      }
